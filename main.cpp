@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
     tagList.append(2);
     tagList.append(5);
     tagList.append(5);
+    tagList.append(23);
 
     tagList.printList();
 
