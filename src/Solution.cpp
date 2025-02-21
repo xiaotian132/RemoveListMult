@@ -6,7 +6,7 @@ ListNode *Solution::removeSublists(ListNode *head)
     // 定义辅助节点
     ListNode *dummy = new ListNode(1);
 
-    // 将辅助节点治愈头节点之前
+    // 将辅助节点置于头节点之前
     dummy->next = head;
 
     // 是否存在符合要求的子段
